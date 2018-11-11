@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport><title>it</title><link href=./static/assets/css/mui.css rel=stylesheet><link href=./static/assets/css/animate.min.css rel=stylesheet><link href=./static/assets/css/iconfont.css rel=stylesheet><link href=./static/assets/css/base.css rel=stylesheet><link href=./static/assets/css/my1.css rel=stylesheet><link rel=stylesheet href=//unpkg.com/vue-ydui/dist/ydui.base.css><script src=./static/assets/js/jquery-1.11.0.min.js></script><script src=./static/assets/js/mui.min.js></script><script src=./static/assets/js/wow.min.js></script><link href=./static/css/app.27ff93d823cace117125641236e67988.css rel=stylesheet></head><body><div id=app></div><script>mui.init();
+			// var wow = new WOW().init({
+			// 	boxClass: 'wow',
+			//     animateClass: 'animated',
+			//     offset: 0,
+			//     mobile: true,
+			//     live: true
+			// });
+			var wow = new WOW().init();
+		
+		$(function(){
+				
+				var flag = 1;
+				$("[href='#offCanvasSide'],[href='#/home'],[href='#/rjwb'],[href='#/rjwb2'],[href='#/news'],[href='#/newsde'],[href='#/faq'],[href='#/about'],[href='#/msh']").on('click', function(e){
+					
+					if(flag == 1){
+						$("#offCanvasSide").addClass("mui-transitioning aside-right");
+						$(".wrapper").removeClass("inner-transform1").addClass("inner-transform mui-transitioning");
+						flag = 2;
+						//alert(flag)
+					}
+					else if(flag == 2){
+						$("#offCanvasSide").removeClass("mui-transitioning aside-right");
+						 $(".wrapper").removeClass("inner-transform mui-transitioning").addClass("inner-transform1");
+						
+						flag = 1;
+						
+					}
+					$(".wrapper").removeClass("inner-transform1");
+				});
+				
+			});</script><script type=text/javascript src=./static/js/manifest.d39ebe8e11571ff21dd7.js></script><script type=text/javascript src=./static/js/vendor.daf994dc513ce2e28034.js></script><script type=text/javascript src=./static/js/app.6d209f221cf3dfdb306f.js></script></body></html>
