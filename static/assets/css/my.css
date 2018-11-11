@@ -1,0 +1,155 @@
+/*header*/
+
+.mui-bar {
+	background-color: #fff;
+}
+
+.header-img {
+	line-height: 38px;
+	max-width: 112px;
+	height: 38px;
+	display: block;
+	margin: 0 auto;
+	float: none;
+	padding: 5px 0;
+}
+
+.mui-bar .mui-title {
+	padding: 3px 0;
+	line-height: 38px;
+}
+.mui-off-canvas-wrap .mui-bar{
+	-webkit-box-shadow: 0 0px 6px #ccc;
+    box-shadow: 0 0px 6px #ccc;
+}
+
+/*软件开发人力外包九宫图*/
+
+.mui-grid-view.mui-grid-9-noline {
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #fff;
+	background-color: #fff;
+}
+
+.mui-grid-view.mui-grid-9-noline .mui-table-view-cell {
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding: 20px 0;
+}
+.mui-grid-view.mui-grid-9-noline .mui-table-view-cell .box {
+	border-right: 1px solid #eee;
+}
+.mui-grid-view.mui-grid-9-noline .mui-table-view-cell:last-child .box{
+	border-right: none
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{
+	    font-size: 12px;
+}
+.mui-grid-view.mui-grid-9 .mui-media .mui-icon{
+	font-size: 2.5rem;
+}
+/*服务流程*/
+/*.mui-grid-view.mui-grid-9{
+	border-top: none;
+    border-left: none;
+    background-color: transparent;
+}*/
+.mui-table-view-notopline:before{
+	background-color: #fff;
+}
+.mui-table-view-notopline .mui-table-view-cell1:after{
+	    right: 15px; 
+}
+.mui-table-view-cell1.mui-active{
+	background-color: #fff;
+}
+.mui-table-view-notopline .mui-media-object.mui-pull-left{
+	margin-right: 1.25rem;
+	
+}
+/*常见问题*/
+.title{
+	width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    color: #464646;
+}
+.mui-table-view-zjwt:after{
+	background-color: #fff; 
+}
+/*.mui-off-canvas-wrap{
+	height: auto;
+}*/
+/*.mui-scroll-wrapper{
+	height: auto;
+	overflow:auto; 
+	position: inherit;
+}
+.mui-off-canvas-wrap{
+	height: auto;
+}*/
+/*侧导航样式*/
+
+.left-nav .mui-table-view-cell {
+	/*border-top: 1px solid #EBEBEB;*/
+	font-size: 0.8125rem;
+    width: 100%;
+    display: block;
+    min-height: 1.6875rem;
+    line-height: 1.6875rem;
+    /*padding-left: 1.125rem;*/
+}
+
+.left-nav .mui-table-view-cell.mui-active,.left-nav .mui-table-view-cell a.mui-active{
+	background-color: #333333;
+	color: #fff;
+}
+
+.left-nav .mui-table-view-cell:after{
+	    left: 0px;
+}
+.left-nav .mui-table-view-cell a span.circle {
+    margin-right: 0.625rem;
+    position: relative;
+    top: 0px;
+    border: #D8D8D8 1px solid;
+    border-radius: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    display: inline-block;
+}
+.left-nav .mui-table-view-cell > a:not(.mui-btn){
+	  color: #b7b7b7;
+}
+.mui-inner-wrap{
+	
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.left-nav .mui-collapse-content li a {
+    background: #ebebeb;
+    color: #4E4E4E!important;
+    padding-left: 42px;
+}
+.left-nav .mui-table-view-cell.mui-collapse .mui-table-view{
+	margin-left: -37px;
+	margin-top: -11px;
+}
+.left-nav .mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell.mui-active{
+	margin-left: -31px;
+	margin-top: -11px;
+}
+.left-nav .mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell > a:not(.mui-btn){
+	background: #ebebeb;
+    color: #4E4E4E!important;
+    /*padding-left: 45px;*/
+}
+.mui-table-view-cell.mui-collapse.mui-active .mui-table-view-cell > a:not(.mui-btn).mui-active{
+	    padding-left: 58px;
+}
+.tt {
+    transform: translate3d(0px, 0px, 0px) translateZ(0px);
+    transition-duration: 0ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
